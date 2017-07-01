@@ -6,55 +6,57 @@ Develop implementations for the interface spec below:
 
 Find_Length _of _Text( txtfile) 
 
-// normalize multiple blank chars to
+    // normalize multiple blank chars to
 
-// single blank char and remove(store)
+    // single blank char and remove(store)
 
-// website URLS that have infected
+    // website URLS that have infected
 
-// text file using FSA based RegEx
+    // text file using FSA based RegEx
 
-// matcher
+    // matcher
 
 Find_Pattern ( pattern , InTextRange, algo)
 
-// Find the number of occurrences of
+    // Find the number of occurrences of
 
-// pattern using any one of the
+    // pattern using any one of the
 
-// following algorithms (2nd parameter)
+    // following algorithms (2nd parameter)
 
-// Rabin-Karp, Knuth_Morris_Pratt
+    // Rabin-Karp, Knuth_Morris_Pratt
 
-// Suffix Tree (with Suffix arrays & LCP)
+    // Suffix Tree (with Suffix arrays & LCP)
 
-// InTextRange : can be indices or
+    // InTextRange : can be indices or
 
-// two patterns (e.g two story titles)
+    // two patterns (e.g two story titles)
 
 Buil d_Cross_Index( txtfile, algo)// Build an Index (Lex sorted)
 
-// ( Word , Number of occurrences,
+    // ( Word , Number of occurrences,
 
-// List of Story Titles & # of
+    // List of Story Titles & # of
 
-// occurrences of Word)
+    // occurrences of Word)
+
 
 Find_Maximal,Palindromes (PalindromeSize, InTextRange )
 
-// List maximal palindromes of size
+    // List maximal palindromes of size
 
-// greater than or equal to
+    // greater than or equal to
 
-// PalindromeSize, with occurrences
-(Story titles and indices )
+    // PalindromeSize, with occurrences
+    (Story titles and indices )
+
 
 Print_Stats ( ) 
-// Text Size used, URL infection list found,
+    // Text Size used, URL infection list found,
 
-// Algo Used, Preprocessing time, Search time
+    // Algo Used, Preprocessing time, Search time
 
-// (Vary the parameters pattern ,
-// InTextRange ) for timing plot
+    // (Vary the parameters pattern ,
+    // InTextRange ) for timing plot
 
-// and Self Test & Verification outcome
+    // and Self Test & Verification outcome
